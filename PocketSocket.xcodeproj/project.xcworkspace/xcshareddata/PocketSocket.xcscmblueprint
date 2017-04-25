@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3692ABDCB445527429496D19963AFF94CAB1E068",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E3C69990BA1F6203B7ABC6BA488D805EDF9875C7" : 9223372036854775807,
+    "3692ABDCB445527429496D19963AFF94CAB1E068" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "57685492-0022-4487-BA95-37DEBAB944DE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E3C69990BA1F6203B7ABC6BA488D805EDF9875C7" : "",
+    "3692ABDCB445527429496D19963AFF94CAB1E068" : "PocketSocket\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PocketSocket",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PocketSocket.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zwopple\/PocketSocket.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3692ABDCB445527429496D19963AFF94CAB1E068"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dequelabs\/Axe-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3C69990BA1F6203B7ABC6BA488D805EDF9875C7"
+    }
+  ]
+}

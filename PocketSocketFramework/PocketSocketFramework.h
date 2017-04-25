@@ -10,6 +10,12 @@
 
 #import "PSWebSocket.h"
 #import "PSWebSocketServer.h"
+#import "PSWebSocketBuffer.h"
+#import "PSWebSocketDriver.h"
+#import "PSWebSocketInternal.h"
+#import "PSWebSocketNetworkThread.h"
+#import "PSWebSocketUTF8Decoder.h"
+#import "PSWebSocketTypes.h"
 
 //! Project version number for PocketSocketFramework.
 FOUNDATION_EXPORT double PocketSocketFrameworkVersionNumber;

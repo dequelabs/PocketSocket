@@ -169,20 +169,21 @@
         NSString *networkServiceType = nil;
 
         switch (request.networkServiceType) {
-        case NSURLNetworkServiceTypeDefault:
-            break;
-        case NSURLNetworkServiceTypeVoIP:
-            networkServiceType = NSStreamNetworkServiceTypeVoIP;
-            break;
-        case NSURLNetworkServiceTypeBackground:
-            networkServiceType = NSStreamNetworkServiceTypeBackground;
-            break;
-        case NSURLNetworkServiceTypeVoice:
-            networkServiceType = NSStreamNetworkServiceTypeVoice;
-            break;
-        case NSURLNetworkServiceTypeVideo:
-            networkServiceType = NSStreamNetworkServiceTypeVideo;
-            break;
+            case NSURLNetworkServiceTypeVoIP:
+                networkServiceType = NSStreamNetworkServiceTypeVoIP;
+                break;
+            case NSURLNetworkServiceTypeBackground:
+                networkServiceType = NSStreamNetworkServiceTypeBackground;
+                break;
+            case NSURLNetworkServiceTypeVoice:
+                networkServiceType = NSStreamNetworkServiceTypeVoice;
+                break;
+            case NSURLNetworkServiceTypeVideo:
+                networkServiceType = NSStreamNetworkServiceTypeVideo;
+                break;
+
+            default:
+                break;
         }
         
         _inputStream = CFBridgingRelease(readStream);
