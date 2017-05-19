@@ -10,14 +10,6 @@
 		0F4C82AD1E7B0FFF001D2F4B /* PocketSocketFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4C829D1E7B0FFF001D2F4B /* PocketSocketFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F4C82B01E7B0FFF001D2F4B /* PocketSocketFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4C829B1E7B0FFE001D2F4B /* PocketSocketFramework.framework */; };
 		0F4C82B11E7B0FFF001D2F4B /* PocketSocketFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4C829B1E7B0FFE001D2F4B /* PocketSocketFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0F4C82B91E7B1030001D2F4B /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E35218B37DF300BAE47A /* PSWebSocket.m */; };
-		0F4C82BA1E7B1030001D2F4B /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
-		0F4C82BB1E7B1030001D2F4B /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33418B37DEC00BAE47A /* PSWebSocketDriver.m */; };
-		0F4C82BC1E7B1030001D2F4B /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33818B37DEC00BAE47A /* PSWebSocketBuffer.m */; };
-		0F4C82BD1E7B1030001D2F4B /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33A18B37DEC00BAE47A /* PSWebSocketInflater.m */; };
-		0F4C82BE1E7B1030001D2F4B /* PSWebSocketDeflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33C18B37DEC00BAE47A /* PSWebSocketDeflater.m */; };
-		0F4C82BF1E7B1030001D2F4B /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34018B37DEC00BAE47A /* PSWebSocketNetworkThread.m */; };
-		0F4C82C01E7B1030001D2F4B /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34218B37DEC00BAE47A /* PSWebSocketUTF8Decoder.m */; };
 		0F4C82C11E7B1050001D2F4B /* PSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E35118B37DF300BAE47A /* PSWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F4C82C21E7B105C001D2F4B /* PSWebSocketDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33318B37DEC00BAE47A /* PSWebSocketDriver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F4C82C31E7B105C001D2F4B /* PSWebSocketTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33D18B37DEC00BAE47A /* PSWebSocketTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,8 +20,16 @@
 		0F4C82C81E7B105C001D2F4B /* PSWebSocketNetworkThread.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E33F18B37DEC00BAE47A /* PSWebSocketNetworkThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F4C82C91E7B105C001D2F4B /* PSWebSocketUTF8Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5E34118B37DEC00BAE47A /* PSWebSocketUTF8Decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F4C82CA1E7B1097001D2F4B /* PSWebSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2A05D918B5BBEC0066EEA4 /* PSWebSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F821D981EA021B300B45546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F821D971EA021B300B45546 /* Foundation.framework */; };
-		0F821D9B1EA021E400B45546 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F821D9A1EA021E400B45546 /* libz.tbd */; };
+		0F89A4BF1EC4FE4E009B56BD /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E35218B37DF300BAE47A /* PSWebSocket.m */; };
+		0F89A4C01EC4FE4E009B56BD /* PSWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */; };
+		0F89A4C11EC4FE4E009B56BD /* PSWebSocketDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33418B37DEC00BAE47A /* PSWebSocketDriver.m */; };
+		0F89A4C21EC4FE4E009B56BD /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33818B37DEC00BAE47A /* PSWebSocketBuffer.m */; };
+		0F89A4C31EC4FE4E009B56BD /* PSWebSocketInflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33A18B37DEC00BAE47A /* PSWebSocketInflater.m */; };
+		0F89A4C41EC4FE4E009B56BD /* PSWebSocketDeflater.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33C18B37DEC00BAE47A /* PSWebSocketDeflater.m */; };
+		0F89A4C51EC4FE4E009B56BD /* PSWebSocketNetworkThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34018B37DEC00BAE47A /* PSWebSocketNetworkThread.m */; };
+		0F89A4C61EC4FE4E009B56BD /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34218B37DEC00BAE47A /* PSWebSocketUTF8Decoder.m */; };
+		0F89A4C81EC4FF19009B56BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F89A4C71EC4FF19009B56BD /* Foundation.framework */; };
+		0F89A4CA1EC4FF98009B56BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F89A4C91EC4FF98009B56BD /* libz.tbd */; };
 		275D3ADB1B02811E0013B9A9 /* PSWebSocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E33818B37DEC00BAE47A /* PSWebSocketBuffer.m */; };
 		275D3ADC1B02811E0013B9A9 /* PSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E35218B37DF300BAE47A /* PSWebSocket.m */; };
 		275D3ADD1B02811E0013B9A9 /* PSWebSocketUTF8Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5E34218B37DEC00BAE47A /* PSWebSocketUTF8Decoder.m */; };
@@ -128,6 +128,8 @@
 		0F4C829E1E7B0FFF001D2F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F821D971EA021B300B45546 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0F821D9A1EA021E400B45546 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		0F89A4C71EC4FF19009B56BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0F89A4C91EC4FF98009B56BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		275D3AE91B02811E0013B9A9 /* libPocketSocket-Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPocketSocket-Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2A05D918B5BBEC0066EEA4 /* PSWebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWebSocketServer.h; sourceTree = "<group>"; };
 		EE2A05DA18B5BBEC0066EEA4 /* PSWebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWebSocketServer.m; sourceTree = "<group>"; };
@@ -182,8 +184,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F821D9B1EA021E400B45546 /* libz.tbd in Frameworks */,
-				0F821D981EA021B300B45546 /* Foundation.framework in Frameworks */,
+				0F89A4CA1EC4FF98009B56BD /* libz.tbd in Frameworks */,
+				0F89A4C81EC4FF19009B56BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +290,8 @@
 		EEE5E30C18B37DD500BAE47A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F89A4C91EC4FF98009B56BD /* libz.tbd */,
+				0F89A4C71EC4FF19009B56BD /* Foundation.framework */,
 				0F821D9A1EA021E400B45546 /* libz.tbd */,
 				0F821D971EA021B300B45546 /* Foundation.framework */,
 				EE453D271CABF6EA00A2EA13 /* libz.tbd */,
@@ -397,7 +401,6 @@
 				0F4C82961E7B0FFE001D2F4B /* Sources */,
 				0F4C82971E7B0FFE001D2F4B /* Frameworks */,
 				0F4C82981E7B0FFE001D2F4B /* Headers */,
-				0F4C82991E7B0FFE001D2F4B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -523,13 +526,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F4C82991E7B0FFE001D2F4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EE453D0D1CABF60300A2EA13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,14 +551,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4C82B91E7B1030001D2F4B /* PSWebSocket.m in Sources */,
-				0F4C82BA1E7B1030001D2F4B /* PSWebSocketServer.m in Sources */,
-				0F4C82BB1E7B1030001D2F4B /* PSWebSocketDriver.m in Sources */,
-				0F4C82BC1E7B1030001D2F4B /* PSWebSocketBuffer.m in Sources */,
-				0F4C82BD1E7B1030001D2F4B /* PSWebSocketInflater.m in Sources */,
-				0F4C82BE1E7B1030001D2F4B /* PSWebSocketDeflater.m in Sources */,
-				0F4C82BF1E7B1030001D2F4B /* PSWebSocketNetworkThread.m in Sources */,
-				0F4C82C01E7B1030001D2F4B /* PSWebSocketUTF8Decoder.m in Sources */,
+				0F89A4BF1EC4FE4E009B56BD /* PSWebSocket.m in Sources */,
+				0F89A4C01EC4FE4E009B56BD /* PSWebSocketServer.m in Sources */,
+				0F89A4C11EC4FE4E009B56BD /* PSWebSocketDriver.m in Sources */,
+				0F89A4C21EC4FE4E009B56BD /* PSWebSocketBuffer.m in Sources */,
+				0F89A4C31EC4FE4E009B56BD /* PSWebSocketInflater.m in Sources */,
+				0F89A4C41EC4FE4E009B56BD /* PSWebSocketDeflater.m in Sources */,
+				0F89A4C51EC4FE4E009B56BD /* PSWebSocketNetworkThread.m in Sources */,
+				0F89A4C61EC4FE4E009B56BD /* PSWebSocketUTF8Decoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
